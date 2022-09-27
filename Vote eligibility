@@ -1,0 +1,49 @@
+#include<stdio.h>
+
+int main()
+{
+	int a ;
+	
+	//input age
+	printf("Enter the age of the person: ");
+	scanf("%d",&a);
+
+	//check voting eligibility
+	if (a>=18)
+	{
+		printf("Eigibal for voting");
+	}
+	else
+	{
+		printf("Not eligibal for voting\n");
+	}	
+
+	return 0;
+}
+
+
+
+Enter age : 17
+You cant Vote!
+--------------------------------
+Process exited after 42.05 seconds with return value 0
+Press any key to continue . . .
+
+Enter age : 18
+You can Vote!
+--------------------------------
+Process exited after 4.24 seconds with return value 0
+Press any key to continue . . .
+Enter age : 12
+You cant Vote!
+--------------------------------
+Process exited after 2.26 seconds with return value 0
+Press any key to continue . . .
+
+Enter age : 34.5
+You can Vote!
+--------------------------------
+Process exited after 3.572 seconds with return value 0
+Press any key to continue . . .
+
+
